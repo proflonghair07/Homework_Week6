@@ -1,6 +1,7 @@
 # Weather Dashboard App Description
 ## Link to app
 ## https://proflonghair07.github.io/Homework_Week6/
+## ![](images/Weather_Dashboard_Screenshot.png)
 ## This weather app is made up of three different files. An index.html file, a style.css file, and a script.js file.
 
 ## The index file contains cd's that link to jquery, bootstrap, font-awesome, google fonts, and the local css style sheet. The page is styled mostly via bootsrap with small amount of the styling done via the local style sheet. The header uses bootstraps navbar. The two main sections of the page are contained in a row that is contained in a container. The input are uses a bootsrap input with a placeholder of city name and a button nested within a input-group-append div. The button uses a search icon pulled from font-awesome. Beneath the input area is a list-group div. This is where the city inputs are appended to via that javascript file. The output area contains a card div where the current day weather is projected and another div where the five day forecast is displayed.
