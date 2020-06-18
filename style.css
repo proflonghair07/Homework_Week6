@@ -1,0 +1,72 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  color: white;
+}
+
+h2 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+h3 {
+  padding-top: 7px;
+}
+
+.navbar {
+  background-color: #464646;
+  margin-top: 0px;
+}
+
+.card-body {
+  background-color: #4b86b4;
+  border-radius: 3px;
+}
+
+#search-area {
+  background-color: #808080;
+  height: 800px;
+}
+
+#output-area {
+  background-color: #d3d3d3;
+  height: 800px;
+}
+
+.favorable {
+  border-radius: 3px;
+  background-color: #2e8b57;
+  padding: 6px;
+  color: white;
+}
+
+.moderate {
+  border-radius: 3px;
+  background-color: #fada5e;
+  padding: 6px;
+  color: black;
+}
+
+.severe {
+  border-radius: 3px;
+  background-color: #ff0000;
+  padding: 6px;
+  color: white;
+}
+
+#current-weather {
+  background-color: #abcde3;
+  border-radius: 3px;
+  border: 2px solid #464646;
+}
+
+#weather-display {
+  margin-top: 13px;
+}
+
+.city {
+  background-color: #abcde3;
+}

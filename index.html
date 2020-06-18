@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script src="https://kit.fontawesome.com/3a0690688e.js" crossorigin="anonymous"></script>
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar nav">
+        <h1>Weather Dashboard</h1>
+    </nav>
+    <div class="container-fluid">
+    <div class="row">
+      <!-- search input-->
+        <div class="col-4" id="search-area"><h2>Search for a City:</h2><span id="error"></span><div class="input-group mb-3">
+            <input type="text" class="form-control" id="city-input" placeholder="City Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button type="button" class="btn btn-secondary" id="submit-weather"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <!-- city input list -->
+          </div>
+          <div class="list-group" id="city-input-list"></div>
+        </div>
+        <!-- current day forecast -->
+        <div class="col-8" id="output-area"><div class="card" style="width: 100%;" id="weather-display"></div>
+        <!-- five day forecast -->
+        <div id="forecast-display"></div></div>
+    </div>
+      
+      
+    <script src="script.js"></script>
+  </body>
+</html>
