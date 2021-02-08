@@ -1,6 +1,6 @@
 # Weather Dashboard App Description
 
-##Check the site out [here](https://proflonghair07.github.io/Weather_Dashboard/)
+## Check the site out [here](https://proflonghair07.github.io/Weather_Dashboard/)
 ![](images/Weather_Dashboard_Screenshot.png)
 This weather app is made up of three different files. An index.html file, a style.css file, and a script.js file.
 
